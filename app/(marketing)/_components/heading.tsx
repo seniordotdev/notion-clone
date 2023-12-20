@@ -16,10 +16,10 @@ const Heading = () => {
 				Your Ideas, Documents & Plans. Unifid. Welcome to{" "}
 				<span className="underline">{information.projectName}</span>
 			</h1>
-			<h3 className="text-base sm:text-xl md:text-2xl font-medium">
-				Joshua is connected workspace where <br />
+			<h2 className="text-base sm:text-xl md:text-2xl font-medium">
+				{information.projectName} is connected workspace where <br />
 				better, faster work happens
-			</h3>
+			</h2>
 			{isLoading && (
 				<div className="w-full flex items-center justify-center">
 					<Spinner size={"lg"} />
